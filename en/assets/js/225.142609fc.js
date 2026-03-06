@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkfiscalis_docs=globalThis.webpackChunkfiscalis_docs||[]).push([[225],{225(s,c,e){e.d(c,{createArchitectureServices:()=>i.S});var i=e(94);e(808)}}]);

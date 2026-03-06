@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkfiscalis_docs=globalThis.webpackChunkfiscalis_docs||[]).push([[1903],{1912(s){s.exports=JSON.parse('{"blogBasePath":"/fiscalis-docs/en/blog","blogTitle":"Blog","authorsListPath":"/fiscalis-docs/en/blog/authors"}')}}]);
