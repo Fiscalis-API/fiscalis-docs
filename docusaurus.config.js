@@ -129,7 +129,7 @@ const config = {
             items: [
               {
                 label: 'Documentation',
-                to: '/docs/intro',
+                to: '/docs/acceuil',
               },
             ],
           },
@@ -159,7 +159,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Fiscalis-API',
               },
             ],
           },
