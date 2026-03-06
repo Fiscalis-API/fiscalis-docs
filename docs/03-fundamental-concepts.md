@@ -16,7 +16,7 @@ Fiscalis met à disposition deux environnements distincts pour sécuriser vos d�
 - **Production :** L'environnement réel. Les factures soumises ici sont légalement certifiées et transmises à la DGI.
 
 :::warning Attention
-Ne pointez jamais vos applications de test vers l'environnement de production. Assurez-vous que vos clés API (voir [Authentification](./authentification)) correspondent au bon environnement.
+Ne pointez jamais vos applications de test vers l'environnement de production. Assurez-vous que vos clés API (voir [Authentification](./authentication)) correspondent au bon environnement.
 :::
 
 ## Forfaits et Comptage des Factures
