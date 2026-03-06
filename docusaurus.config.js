@@ -23,16 +23,16 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://docs.fiscalis.app',
+  url: 'https://Fiscalis-API.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/fiscalis-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Veldrys', // Usually your GitHub org/user name.
+  organizationName: 'Fiscalis-API', // Usually your GitHub org/user name.
   projectName: 'fiscalis-docs', // Usually your repo name.
-
+  trailingSlash: false,
   onBrokenLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -111,13 +111,13 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Fiscalis-API/fiscalis-docs',
             label: 'GitHub',
             position: 'right',
           },
           {
             type: 'localeDropdown',
-            position: 'left',
+            position: 'right',
           }
         ],
       },
@@ -136,7 +136,7 @@ const config = {
           {
             title: 'Community',
             items: [
-              {
+              /*{
                 label: 'Stack Overflow',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
@@ -147,7 +147,7 @@ const config = {
               {
                 label: 'X',
                 href: 'https://x.com/docusaurus',
-              },
+              },*/
             ],
           },
           {
