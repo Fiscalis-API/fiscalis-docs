@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkfiscalis_docs=globalThis.webpackChunkfiscalis_docs||[]).push([[7472],{5513(s){s.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Mise \xe0 jour DGI mars 2026","permalink":"/fiscalis-docs/blog/dgi-update-march-2026","unlisted":false,"date":"2026-03-06T00:00:00.000Z"}]}')}}]);

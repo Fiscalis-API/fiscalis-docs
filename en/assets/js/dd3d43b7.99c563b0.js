@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkfiscalis_docs=globalThis.webpackChunkfiscalis_docs||[]).push([[9828],{6815(s){s.exports=JSON.parse('{"metadata":{"permalink":"/fiscalis-docs/en/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
