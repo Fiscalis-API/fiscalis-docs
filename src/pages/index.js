@@ -15,12 +15,12 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">Solution fiscale pour tout vos ERP.</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/acceuil">
-            Docusaurus Tutorial - 5min ⏱️
+            Fiscalis Tutorial - 5min ⏱️
           </Link>
         </div>
       </div>

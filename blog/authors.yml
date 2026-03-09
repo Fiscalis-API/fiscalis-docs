@@ -1,14 +1,12 @@
-yangshun:
-  name: Yangshun Tay
-  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
-  url: https://linkedin.com/in/yangshun
-  image_url: https://github.com/yangshun.png
+bush243:
+  name: Kevin BUSHIRI
+  title: Software developper
+  url: https://linkedin.com/in/kevin-bushiri-a153ba12b
+  image_url: https://github.com/keevBush.png
   page: true
   socials:
-    x: yangshunz
-    linkedin: yangshun
-    github: yangshun
-    newsletter: https://www.greatfrontend.com
+    linkedin: kevin-bushiri-a153ba12b
+    github: keevBush
 
 slorber:
   name: Sébastien Lorber

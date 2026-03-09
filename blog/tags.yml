@@ -17,3 +17,13 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+tax-groups:
+  label: Group de taxation
+  permalink: /tax-groups
+  description: Groupe de taxation de la DGI
+
+mcf:
+  label: MCF
+  permalink: /mcf
+  description: Dispositif fiscal physique

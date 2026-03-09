@@ -6,25 +6,81 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+--ifm-color-primary: #0B63CE;
+  /* Primary (bleu du logo) */
+  --ifm-color-primary: #0B63CE;
+  --ifm-color-primary-dark: #0A59B8;
+  --ifm-color-primary-darker: #094FA3;
+  --ifm-color-primary-darkest: #083A8C;
+
+  --ifm-color-primary-light: #2A7DE0;
+  --ifm-color-primary-lighter: #3CB4E7;
+  --ifm-color-primary-lightest: #6ECFF6;
+
+  /* Couleur accent (circuit) */
+  --color-accent: #F2B705;
+
+  /* Background light */
+  --ifm-background-color: #FFFFFF;
+  --ifm-background-surface-color: #F5F7FA;
+
+  /* Text */
+  --ifm-font-color-base: #1F2937;
+
+  /* Code */
+  --ifm-code-background: #F3F4F6;
+
+  /* Navbar */
+  --ifm-navbar-background-color: #FFFFFF;
+
+  /* Footer */
+  --ifm-footer-background-color: #0B63CE;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  /* Primary */
+  --ifm-color-primary: #3CB4E7;
+  --ifm-color-primary-dark: #2DA6DA;
+  --ifm-color-primary-darker: #1E97CC;
+  --ifm-color-primary-darkest: #1678A8;
+
+  --ifm-color-primary-light: #63C6F0;
+  --ifm-color-primary-lighter: #8AD7F6;
+  --ifm-color-primary-lightest: #B3E7FA;
+
+  /* Accent */
+  --color-accent: #F2B705;
+
+  /* Background */
+  --ifm-background-color: #0A0F1C;
+  --ifm-background-surface-color: #111827;
+
+  /* Text */
+  --ifm-font-color-base: #E5E7EB;
+
+  /* Code */
+  --ifm-code-background: #0F172A;
+
+  /* Navbar */
+  --ifm-navbar-background-color: #0F172A;
+
+  /* Footer */
+  --ifm-footer-background-color: #020617;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.menu__link--active {
+  color: var(--color-accent);
+}
+
+a:hover {
+  color: var(--color-accent);
+}
+
+.button--secondary {
+  background-color: var(--color-accent);
+  border: none;
 }
