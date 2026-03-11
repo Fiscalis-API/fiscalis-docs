@@ -80,3 +80,5 @@ The invoice is only standardized if it includes the security elements returned b
 - **Counters**: This is the counter of the NIM.
 - **Date Time**: Corresponds to the time of the invoice standardization.
 - **QR Code**: Corresponds to the QR code of the invoice.
+
+![exemple_de_facture](/img/exemple_de_facture.png)
