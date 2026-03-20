@@ -15,7 +15,8 @@ Chaque ligne de votre facture (l'objet `ItemDto` dans notre API) doit obligatoir
 
 ### Taux Standards (TVA facturée au client)
 * **Groupe B (16%) :** Ce groupe est utilisé pour les opérations soumises expressément au taux normal de TVA de 16% réalisées par une entreprise assujettie. La TVA est facturée à 16%.
-* **Groupe C (8%) :** Ce groupe est réservé aux opérations soumises expressément au taux réduit de TVA de 8%. La TVA est facturée à 8%.
+* **Groupe C (5%) :** Ce groupe est réservé aux opérations soumises expressément au taux réduit de TVA de 5%. La TVA est facturée à 5%.
+* **Groupe O (1%) :** Ce groupe est réservé aux opérations soumises expressément au taux réduit de TVA de 1%. La TVA est facturée à 1%.
 
 ### Exonérations et Taux Zéro
 * **Groupe A (Exonéré) :** Concerne les opérations non soumises à la TVA réalisées par une entreprise assujettie. La TVA n'est pas facturée.
@@ -29,7 +30,8 @@ Le vendeur est tenu d'enregistrer la référence du document de dérogation dél
 :::
 
 * **Groupe F (Marché public - 16%) :** Opération taxable au taux normal de 16% pour laquelle l'État prend en charge la TVA sous forme de crédit d'impôt. La TVA est facturée à 16%, mais payée par crédit d'impôt.
-* **Groupe G (Marché public - 8%) :** Opération taxable au taux réduit de 8% prise en charge par l'État sous forme de crédit d'impôt. La TVA est facturée à 8%, mais payée par crédit d'impôt.
+* **Groupe G (Marché public - 5%) :** Opération taxable au taux réduit de 5% prise en charge par l'État sous forme de crédit d'impôt. La TVA est facturée à 5%, mais payée par crédit d'impôt.
+* **Groupe P (Marché public - 1%) :** Opération taxable au taux réduit de 1% prise en charge par l'État sous forme de crédit d'impôt. La TVA est facturée à 1%, mais payée par crédit d'impôt.
 
 ### Opérations Spécifiques (TVA non facturée)
 * **Groupe H (Consignation) :** Utilisé pour les montants perçus à titre de consignation lors de la livraison d'emballages récupérables. La TVA n'est pas facturée.

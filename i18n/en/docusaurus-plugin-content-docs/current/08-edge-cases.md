@@ -15,7 +15,8 @@ Each line of your invoice (the `ItemDto` object in our API) must imperatively in
 
 ### Standard Rates (VAT invoiced to the customer)
 * **Group B (16%):** This group is used for operations expressly subject to the normal VAT rate of 16% carried out by a taxable person. VAT is invoiced at 16%.
-* **Group C (8%):** This group is reserved for operations expressly subject to the reduced VAT rate of 8%. VAT is invoiced at 8%.
+* **Group C (5%):** This group is reserved for operations expressly subject to the reduced VAT rate of 5%. VAT is invoiced at 5%.
+* **Group O (1%):** This group is reserved for operations expressly subject to the reduced VAT rate of 1%. VAT is invoiced at 1%.
 
 ### Exemptions and Zero Rates
 * **Group A (Exempt):** Concerns operations not subject to VAT carried out by a taxable person. VAT is not invoiced.
@@ -29,7 +30,8 @@ The seller is required to record the reference of the derogation document issued
 :::
 
 * **Group F (Public Procurement - 16%):** Taxable operation at the normal rate of 16% for which the State pays the VAT in the form of a tax credit. VAT is invoiced at 16%, but paid by tax credit.
-* **Group G (Public Procurement - 8%):** Taxable operation at the reduced rate of 8% supported by the State in the form of a tax credit. VAT is invoiced at 8%, but paid by tax credit.
+* **Group G (Public Procurement - 5%):** Taxable operation at the reduced rate of 5% supported by the State in the form of a tax credit. VAT is invoiced at 5%, but paid by tax credit.
+* **Group P (Public Procurement - 1%):** Taxable operation at the reduced rate of 1% supported by the State in the form of a tax credit. VAT is invoiced at 1%, but paid by tax credit.
 
 ### Specific Operations (VAT not invoiced)
 * **Group H (Consignment):** Used for amounts collected as a deposit upon delivery of returnable packaging. VAT is not invoiced.
